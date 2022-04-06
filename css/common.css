@@ -1,0 +1,443 @@
+@charset "UTF-8";
+
+body {
+  margin: 0 auto;
+  width: 1440px;
+  font-family: 'Montserrat', sans-serif;
+  /* 'M PLUS 1p' ニコモジ */
+  font-size: 24px;
+  word-break: break-all;
+  line-height: 1.3;
+  list-style: none;
+}
+header {
+  height: 500px;
+  width: 100%;
+}
+
+.header_wrapper {
+  display: flex;
+  background-color: #F1B57D;
+  height: 500px;
+}
+
+.header_left {
+  width: 440px;
+  height: 400px;
+  text-align: center;
+}
+
+.header_title {
+  font-size: 64px;
+  color: #B0CCD2;
+  padding-top: 50px;
+}
+
+.header_content {
+  padding-top: 34px;
+  color: #fff;
+  background-color: #333F2E;
+  margin: 0 16.6px;
+}
+
+.header_txt {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.retro {
+  color: #A06F25;
+}
+
+.fasion {
+  color: #C5B846;
+}
+
+.header_right{
+  width: 1000px;
+  height: 100%;
+  position: relative;
+}
+
+.header_nav {
+  position: absolute;
+  background-color: #000;
+  width: 100%;
+  display: inline-block;
+}
+
+.header_nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.header_nav ul li {
+  list-style: none;
+}
+
+.header_nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header_img {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 1000px;
+  height: 450px;
+}
+
+.about {
+  width: 1440px;
+  height: 500px;
+  background-color: #BD8F64;
+}
+
+.about_content {
+  display: flex;
+  position: relative;
+}
+
+.title{
+  height: 45px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Nico Moji";
+  padding-top: 30px;
+}
+
+.about_title {
+  color: #655640;
+  width: 200px;
+}
+
+
+
+.txt {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.about_txt {
+  width: 580px;
+  height: 280px;
+  padding-top: 100px;
+  padding-right: 100px; 
+  color:#fff;
+  line-height: 1.8;
+  position:absolute;
+  top: 0;
+  left: 32px;
+}
+
+.about_txt strong {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.txt_title {
+  color: #B0CCD2;
+}
+
+.about_img {
+  width: 650px;
+  height: 500px;
+  position: absolute;
+  left: 790px;
+}
+
+.menu {
+  height: 900px;
+  width: 100%;
+  background-color: #FEDEC1;
+}
+
+.menu_title {
+  font-size: 40px;
+  font-family: "Nico Moji";
+  text-align: center;
+  padding-top: 30px;
+  color: #BBAC21;
+}
+
+.item1 {
+  display: flex;
+  position: relative;
+  height: 296px;
+  width: 1240px;
+  padding-top: 59px;
+}
+
+.item1_content {
+  padding-left: 170px;
+  width: 50%;
+  height: 197px;
+}
+
+.item1_name {
+  font-size: 32px;
+  color: #83674D;
+}
+
+.item1_txt {
+  padding-left: 28px;
+  font-size: 24px;
+  padding-top: 42px;
+} 
+
+.item1_img {
+  position: relative;
+  width: 760px;
+  height: 296px;
+}
+
+.coffee {
+  position: absolute;
+  left: 10%;
+  width: 600px;
+  height: 265px;
+  z-index: 1;
+}
+
+.img_bg {
+  width: 800px;
+  height: 65px;
+  position: absolute;
+  bottom: 0; 
+  background-color: #e5e5e5;
+}
+
+.item2 {
+  display: flex;
+  width: 1240px;
+  height: 296;
+}
+
+.item2_img {
+  position: relative;
+  width: 760px;
+  height: 296px;
+}
+
+.cake {
+  position: absolute;
+  left: 10%;
+  top: 60px;
+  width: 600px;
+  height: 265px;
+  z-index: 1;
+}
+
+.img2_bg {
+  width: 100%;
+  height: 65px;
+  position: absolute;
+  bottom: -60px;
+  background-color: #e5e5e5;
+}
+
+.item2_content {
+  padding-top: 61px;
+  width: 420px;
+  height: 180px;
+}
+
+.item2_name {
+  font-size: 32px;
+  color: #83674D;
+}
+
+.PP {
+  color: #B0CCD2;
+} 
+
+.item2_txt {
+  padding-top: 50px;
+}
+
+.event {
+  background-color: #DBDEBC;
+  height: 800px;
+  width: 100%;
+}
+
+.event_title {
+  font-size: 40px;
+  font-family: "Nico Moji";
+  text-align: right;
+  color: #AEBC59;
+}
+
+.event_wrapper1 {
+  width: 1440px;
+  height: 435px;
+  display: flex;
+  position: relative;
+}
+
+.event_txt {
+  padding-top: 199px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.chef {
+  margin: 0 auto;
+  width:400px;
+  height: 430px; 
+}
+
+.int {
+  color: #CA7E25;
+}
+
+.event_wrapper2 {
+  height: 260px;
+  padding-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cooking {
+  width: 400px;
+  height: 260px;
+}
+
+.product {
+  width: 1440px;
+  height: 800px;
+  background-color: #283323;
+  display: flex;
+  position: relative;
+}
+
+.product_title {
+  font-family: "Nico Moji";
+  font-size: 40px;
+  position: absolute;
+  top: 30px;
+  left: 615px;
+  color: #609C5B;
+}
+
+.bed {
+  width: 480px;
+  height: 630px;
+}
+
+.product_txt {
+  width: 480px;
+  position: absolute;
+  top: 170px;
+  left: 482px;
+  color: #fff;
+  text-align: left;
+  padding: 101px 48px;
+  border-top: solid #BBAC21 3px;
+  border-bottom: solid #BBAC21 3px; 
+  z-index: 0.1
+}
+
+.product_PP {
+  color: #B0CCD2;
+}
+
+.break {
+  position: absolute;
+  top: 170px;
+  left: 960px;
+  width: 480px;
+  height: 630px;
+}
+
+.news {
+  width: 100%;
+  height: 1024px;
+  background-color: #252531;
+}
+
+.news_title {
+  color: #95BED6;
+  font-size: 40px;
+  font-family: "Nico Moji";
+  padding-left: 3%;
+  padding-top: 30px;
+}
+
+
+.news_wrapper1 {
+  display: flex;
+  position: relative;
+  height: 475px;
+}
+
+.read {
+  color: #fff;
+  padding-top: 80px;
+  padding-left: 60px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.news_bg1 {
+  position: absolute;
+  top: 276px; 
+  width: 720px;
+  height: 100px;
+  background: linear-gradient(to top, #fff, #252531 );
+}
+
+.news_img1 {
+  position: absolute;
+  left: 720px;
+  width: 720px;
+  height: 475px;
+}
+
+.news_wrapper2 {
+  display: flex;
+  
+  position: relative;
+}
+
+.read2 {
+  position: absolute;
+  top: 133px;
+  left: 924px;
+  color: #fff;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.news_bg2 {
+  position: absolute;
+  top: 281px;
+  left: 720px;
+  width: 720px;
+  height: 100px;
+  background: linear-gradient(to top, #fff, #252531);
+}
+
+.news_img2 {
+  height: 465px;
+  width: 720px;
+}
+
+footer {
+  height: 150px;
+  background-color: #1E2023;
+  position: relative;
+}
+
+footer h1 {
+  color: #fff;
+  font-size: 48px;
+  position: absolute;
+  top: 45px;
+  left: 658px;
+}
