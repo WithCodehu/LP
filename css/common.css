@@ -124,14 +124,14 @@ header {
 
 .about_txt {
   width: 580px;
-  height: 280px;
+  height: 400px;
   padding-top: 100px;
-  padding-right: 100px; 
+  padding-right: px; 
   color:#fff;
   line-height: 1.8;
   position:absolute;
   top: 0;
-  left: 32px;
+  left: 70px;
 }
 
 .about_txt strong {
@@ -212,6 +212,7 @@ header {
 }
 
 .item2 {
+  position: relative;
   display: flex;
   width: 1240px;
   height: 296;
@@ -225,7 +226,7 @@ header {
 
 .cake {
   position: absolute;
-  left: 10%;
+  left: 14%;
   top: 60px;
   width: 600px;
   height: 265px;
@@ -241,8 +242,10 @@ header {
 }
 
 .item2_content {
-  padding-top: 61px;
-  width: 420px;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  width: 500px;
   height: 180px;
 }
 
@@ -280,13 +283,24 @@ header {
 }
 
 .event_txt {
-  padding-top: 199px;
+  padding-top: 140px;
   text-align: center;
   line-height: 1.7;
 }
 
+.e1 {
+  position: absolute;
+  left: 10%;
+}
+
+.e2 {
+  position: absolute;
+  left: 69%;
+}
+
 .chef {
-  margin: 0 auto;
+  position: absolute;
+  left: 36%;
   width:400px;
   height: 430px; 
 }
@@ -379,7 +393,7 @@ header {
 .read {
   color: #fff;
   padding-top: 80px;
-  padding-left: 60px;
+  padding-left: 7em;
   line-height: 1.8;
   text-align: center;
 }
